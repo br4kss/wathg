@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test à choix multiples</title>
+</head>
+<body>
+    <h1>Test à choix multiples</h1>
+    <form action="result.php" method="post">
+        <ol>
+            <li>
+                <p>Quelle est la capitale de la France ?</p>
+                <label>
+                    <input type="radio" name="q1" value="Paris"> Paris
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="Londres"> Londres
+                </label>
+            </li>
+            <li>
+                <p>Quelle est la couleur du ciel par temps clair ?</p>
+                <label>
+                    <input type="radio" name="q2" value="Bleu"> Bleu
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="Rouge"> Rouge
+                </label>
+            </li>
+            <!-- Ajoutez les autres questions de la même manière -->
+        </ol>
+        <input type="submit" value="Soumettre">
+    </form>
+</body>
+</html>
